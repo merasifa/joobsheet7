@@ -24,7 +24,10 @@ public static void main(String[] args) {
                 System.out.print("Sisa jatah cuti Anda tidak mencukupi ");
                 continue;
             }
-        }
+        }else 
+        System.out.println("Program Berhenti");
+        break;
+        
     } while (jatahCuti > 0);
 }    
 }
