@@ -21,8 +21,8 @@ public static void main(String[] args) {
                 jatahCuti -= jumlahHari;
                 System.out.println("Sisa jatah cuti: " + jatahCuti);
             } else {
-                System.out.print("Sisa jatah cuti Anda tidak mencukupi");
-                break;
+                System.out.print("Sisa jatah cuti Anda tidak mencukupi ");
+                continue;
             }
         }
     } while (jatahCuti > 0);
